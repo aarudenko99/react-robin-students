@@ -140,7 +140,7 @@
 //               </Grid>
 //             </Grid>
 //           </Grid>
-//           <Grid item lg={5} sm={6} xl={5} xs={12}>
+//           <Grid item ={5} sm={6} xl={5} xs={12}>
 //             <div className={classes.row}>
 //               <AccessTimeIcon className={classes.activity} />
 //               <Typography>Activity:</Typography>
@@ -157,13 +157,13 @@
 //         </Grid>
 
 //         <Grid container>
-//           <Grid item lg={7} sm={6} xl={7} xs={12}>
+//           <Grid item ={7} sm={6} xl={7} xs={12}>
 //             <Application avatar={data.companyType} className={classes.card}/>
 //             <PhoneScreen avatar={data.companyType} className={classes.card}/>
 //             <InPerson avatar={data.companyType} className={classes.card}/>
 //             <Offer avatar={data.companyType} className={classes.card}/>
 //           </Grid>
-//           <Grid item lg={4} sm={6} xl={4} xs={12} className={classes.wrap}>
+//           <Grid item ={4} sm={6} xl={4} xs={12} className={classes.wrap}>
 //             <MuiPickersUtilsProvider utils={DateFnsUtils} className={classes.calendar}>
 //               <DatePicker
 //                   autoOk

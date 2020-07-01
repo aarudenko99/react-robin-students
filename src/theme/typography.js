@@ -42,27 +42,24 @@ export default {
     fontFamily: 'Rubik'
   },
   h6: {
-    color: palette.text.primary,
-    fontWeight: 500,
+    color: '#BFC5D2',
     fontSize: '14px',
-    letterSpacing: '-0.05px',
-    lineHeight: '20px',
-    fontFamily: 'Rubik'
+    marginTop: '23px'
   },
   subtitle1: {
     color: palette.text.primary,
-    fontSize: '16px',
-    letterSpacing: '-0.05px',
-    lineHeight: '25px',
+    fontSize: '18px',
+    lineHeight: '21px',
+    marginTop: '16px',
     fontFamily: 'Rubik'
   },
   subtitle2: {
-    color: palette.text.secondary,
-    fontWeight: 400,
-    fontSize: '14px',
-    letterSpacing: '-0.05px',
-    lineHeight: '21px',
-    fontFamily: 'Rubik'
+    color: palette.text.primary,
+    fontSize: '16px',
+    lineHeight: '19px',
+    fontFamily: 'Rubik',
+    marginTop: '8px',
+    fontWeight: '300',
   },
   body1: {
     color: palette.text.primary,
@@ -89,6 +86,14 @@ export default {
     fontSize: '24px',
     lineHeight: '28px',
     fontFamily: 'Rubik'
+  },
+  title: {
+    fontSize: '28px'
+  },
+  subTitle: {
+    fontSize: '16px',
+    lineHeight: '19px',
+    fontWeight: '300'
   },
   overline: {
     color: palette.text.secondary,

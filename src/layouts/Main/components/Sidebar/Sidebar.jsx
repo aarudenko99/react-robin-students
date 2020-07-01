@@ -7,7 +7,6 @@ import DashboardIcon from '@material-ui/icons/Dashboard';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import CodeIcon from '@material-ui/icons/CodeOutlined';
-import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import SolutionIcon from '@material-ui/icons/ChromeReaderModeOutlined';
 import PortfolioIcon from '@material-ui/icons/LibraryAddOutlined';
 import ApplicationIcon from '@material-ui/icons/DescriptionOutlined';
@@ -84,7 +83,7 @@ const Sidebar = props => {
     },
     { 
       title: 'Portfolio', 
-      href: '/challenges', 
+      href: '/portfolio', 
       icon: <PortfolioIcon /> 
     },
     // {

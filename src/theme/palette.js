@@ -18,6 +18,10 @@ export default {
     main: white,
     light: white
   },
+  application: {
+    font: '#5CD9D8',
+    background: '#EEECFE'
+  },
   phonescreen: {
     font: '#5643FC',
     background: '#EEECFE'

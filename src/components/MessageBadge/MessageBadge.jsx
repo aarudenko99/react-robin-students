@@ -3,13 +3,16 @@ import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles (theme => ({
   badge: {
-    width: '18px',
-    height: '18px',
+    width: '24px',
+    height: '24px',
     backgroundColor: theme.palette.primary.main,
     color: 'white',
+    fontSize: '14px',
     borderRadius: '50%',
-    textAlign: 'center',
-    marginLeft: 'auto'
+    marginLeft: 'auto',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 }))
 

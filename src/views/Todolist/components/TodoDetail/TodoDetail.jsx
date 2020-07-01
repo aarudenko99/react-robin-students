@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 // , { useEffect }
 import { useLocation, useHistory } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/styles';
 import {
   Grid, 
   Typography,
-  Avatar,
+  // Avatar,
   Card,
   CardContent
 } from '@material-ui/core';
@@ -15,7 +15,7 @@ import {
 import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 
 import * as am4core from "@amcharts/amcharts4/core";
-import * as am4charts from "@amcharts/amcharts4/charts";
+// import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
 am4core.useTheme(am4themes_animated);
@@ -132,9 +132,9 @@ const TodoDetail = () => {
 
   const history = useHistory();
 
-  useEffect(() => {
-    todoList.map( (item) => {
-      console.log(item.progress);
+  // useEffect(() => {
+    // todoList.map( (item) => {
+    //   console.log(item.progress);
     
       // let chart = am4core.create("todochart" + item.id, am4charts.PieChart)
   
@@ -167,8 +167,8 @@ const TodoDetail = () => {
       // return () => {
       //   chart.dispose()
       // }
-    })
-  }, [])
+  //   })
+  // }, [])
 
   const goBack = () => {
     history.goBack();

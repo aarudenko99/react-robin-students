@@ -1,10 +1,9 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+// import { useHistory } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { Button } from '@material-ui/core';
 
-import { DropDown } from 'components';
 const useStyles = makeStyles(theme => ({
   root: {
     display: 'flex',
@@ -35,16 +34,16 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const items = [
-  'name1',
-  'name2',
-  'name3'
-]
+// const items = [
+//   'name1',
+//   'name2',
+//   'name3'
+// ]
 
 const UsersToolbar = props => {
 
   const classes = useStyles();
-  const history = useHistory();
+  // const history = useHistory();
 
   // const routerChange = () => {
   //   let path = `/todocreate`; 

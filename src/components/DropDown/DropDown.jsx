@@ -9,7 +9,8 @@ import Select from '@material-ui/core/Select';
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
-    minWidth: '182px',
+    // minWidth: '182px',
+    minWidth: '284px',
     borderRadius: '5px',
     height: '60px',
     // border: '1px solid #8798AD'
@@ -33,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const DropDown = props => {
-  const { items, inputLabel } = props;
+  const { items, inputLabel, style } = props;
   const classes = useStyles();
   const [age, setAge] = React.useState('');
 
@@ -51,6 +52,7 @@ const DropDown = props => {
         disableUnderline
         onChange={handleChange}
         className={classes.input}
+        style={style}
       >
         {items.map((item, index) => (
           <MenuItem value={index} key={index}>{item}</MenuItem>
